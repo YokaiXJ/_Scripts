@@ -2,14 +2,13 @@
 Dim strOld, strNew, dFolder, expDataType
 
 ' Bitte den letzten Backslash mit auflisten
-dFolder = "C:\Users\Jannek\source\repos\_Scripte\VBS\Directory\" 
+dFolder = "C:\temp\" 
 ' Hier die Dateiendung angeben
-expDataType = ".txt"
+expDataType = ".csv"
 ' Diesen string
-strOld = "JANNEK"
+strOld = ""
 ' ersetzen durch diesen string
-strNew = " 123456 "
-
+strNew = ""
 '###############VBS Start###############
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 Set oFolder = objFSO.GetFolder(dFolder)
