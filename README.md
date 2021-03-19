@@ -1,4 +1,4 @@
-# Collection of multiple Script
+# Collection of multiple Scripts
 
 ### Summary
     This is a little collection of multiple scripts I wrote.
